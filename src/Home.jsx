@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+
 import "./index.css";
-import { NavLink } from 'react-router-dom';
-import weba from "../src/home.svg";
+
 import Common from './Common';
+
+import dribble from './Images/dribble.jpg';
 
 
 
@@ -12,11 +13,11 @@ const Home=()=>{
     return <>
     <section id="home" className="spaceHome col-12 mx-auto">
    <Common 
-    headline="Grow your business with"
-    blueline="ClevTech"
-    headline2="Where culture meets technology"
+    headline="Shop Organic from"
+    blueline="AgroTech"
+    headline2="Where Farming meets Technology"
     wheretogo="about"
-    img={weba}
+    img={dribble}
     buttonline="Know More"
     />
     </section>

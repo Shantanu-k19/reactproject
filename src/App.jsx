@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import {Route,Switch, Redirect} from 'react-router-dom';
+
+
 import About from './About';
 import Services from './Services';
 import Home from './Home';

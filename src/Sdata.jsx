@@ -1,47 +1,46 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import web from '../src/Images/webdevelopment.svg';
-import app from '../src/Images/appdev.svg';
-import ui from '../src/Images/UI.svg';
-import ai from '../src/Images/AI.svg';
-import si from '../src/Images/systemIntegration.svg';
-import cloud from '../src/Images/cloud.svg';
 
+
+import girl from '../src/Images/girl.jpg';
+import fruit from '../src/Images/fruits.png';
+import drone from '../src/Images/drone/drone.jpg';
+import organic from '../src/Images/organic_2/organic.jpg';
+import processing from '../src/Images/processing.png'
+import environment from '../src/Images/environment_friendly.png'
 
 const Sdata=[
     {
-         imgsrc: web,
-        title:"Web Applications",
+         imgsrc: drone,
+        title:"Powered by Drone",
         
 
     },
     {
-        imgsrc:app,
-        title:"App Development",
+        imgsrc:girl,
+        title:"AI powered monitoring",
         
 
     },
     {
-        imgsrc:cloud,
-        title:"SaaS/Cloud",
+        imgsrc:organic,
+        title:"100 % Organic",
         
 
     },
     {
-        imgsrc:si,
-        title:"System Integration",
+        imgsrc:processing,
+        title:"3 layer Packaging",
         
 
     },
     {
-        imgsrc:ui,
-        title:"UI/UX Design",
+        imgsrc:environment,
+        title:"Environment Friendly",
         
 
     },
     {
-        imgsrc:ai,
-        title:"Artificial Intelligence",
+        imgsrc:fruit,
+        title:"Fresh from the farm",
         
 
     }

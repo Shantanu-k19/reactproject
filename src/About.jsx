@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+
 import "./index.css";
-import { NavLink } from 'react-router-dom';
-import weba from "../src/aboutus.svg";
+
 import Common from './Common';
+import unblast from './Images/unblast_farming/unblast.jpg';
+
+
 
 
 
@@ -11,12 +13,11 @@ const About=()=>{
     return <>
     <section className="spaceAbout col-12 mx-auto " id="about">
    <Common 
-    headline="IT Services and Product Development"
-    headline2="We are a team of passionate professionals with an average of 15 Years of experience 
-    with Leading Companies in IT Industries across Australia, US, UK, India"
-    blueline="Products that add life to your business"
+    headline="Revolutionary Technique of AI Farming"
+    headline2="We are a team of passionate professionals in collabration with the experienced farmers from all over India"
+    blueline="We serve state of the art products"
     wheretogo="services"
-    img={weba}
+    img={unblast}
     buttonline="Our Expertise"
     />
     </section>

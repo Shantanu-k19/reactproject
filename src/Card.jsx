@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+
 
 
 
@@ -13,7 +13,7 @@ const Card=(props)=>{
                                     <div class="card" >
                                     <img class="card-img-top" src={props.img} alt={props.img}/>
                                         <div class="card-body">
-                                        <h5 class="card-title">{props.title}</h5>
+                                        <h5 class="card-title"><center>{props.title}</center></h5>
                                         
                                             
                                         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./index.css";
-import { NavLink } from 'react-router-dom';
+
 import {Link} from 'react-scroll';
 
 const Navbar=()=>{
@@ -9,8 +9,8 @@ const Navbar=()=>{
     <div className="row">
     <div className="col-12 mx-auto"> 
     
-        <nav className="navbar navbar-expand-lg transparent navbar-dark fixed-top">
-  <Link className="navbar-brand" to="nav" smooth={true} duration={1000}>ClevTech</Link>
+        <nav className="navbar navbar-expand-lg transparent navbar-light fixed-top">
+  <Link className="navbar-brand " to="nav" smooth={true} duration={1000}>AgroTech</Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
